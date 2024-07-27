@@ -1,7 +1,8 @@
 # CHaser-Server 高速版
 
 ## 変更内容
-Add 2024/7/27 Takashi Ikura
+**Add 2024/7/27 Takashi Ikura**
+
 結果だけを表示するように修正しました。
 Waitのパラメタは無効化しています。
 
