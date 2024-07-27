@@ -1,5 +1,11 @@
 # CHaser-Server
 
+Add 2024/7/27 Takashi Ikura
+
+結果だけを表示するように修正しました。
+
+Waitのパラメタは無効化しています。
+
 CHaser Server on Ruby (unofficial)
 
 Rubyで書いた、U-16プログラミングコンテストの競技「CHaser」のサーバープログラムです。
@@ -36,7 +42,3 @@ ruby chsr.rb -z
 This software is released under the MIT License, see LICENSE.
 
 （このソフトウェアは、MITライセンスのもとで公開されています。LICENSEを見てください。） 
-
-Add 2024/7/27 Takashi Ikura
-結果だけを表示するように修正しました。
-Waitのパラメタは無効化しています。
