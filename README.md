@@ -90,7 +90,7 @@ git config --global user.email "あなたのメールアドレス"
 
 - Emailとユーザ名の設定(現在のフォルダのみに設定)
 ```sh
-git config --local user.name "あなたの名前a"
+git config --local user.name "あなたの名前"
 git config --local user.email "あなたのメールアドレス"
 ```
 
