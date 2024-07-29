@@ -87,3 +87,17 @@ git config commit.template commit_temp.txt
 git config --global user.name "あなたの名前"
 git config --global user.email "あなたのメールアドレス"
 ```
+
+- wingetとは
+windows用のパッケージ管理ツールです。
+ソフトを簡単にインストールするためのツールです。
+
+- wingetでpythonのインストール
+```sh
+winget install Python.Python.3
+```
+
+- wingetでRubyのインストール
+```sh
+winget install Ruby
+```
