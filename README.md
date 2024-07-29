@@ -1,5 +1,15 @@
 # CHaser-Server 高速版
 
+## ソース
+chsr_ex.rb
+
+実行方法の例
+```sh
+ruby chsr_ex.rb
+```
+詳しくは[起動時のパラメータ]を参照してください。
+
+
 ## 変更内容
 **Add 2024/7/27 Takashi Ikura**
 
