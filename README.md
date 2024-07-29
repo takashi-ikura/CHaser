@@ -99,5 +99,5 @@ winget install Python.Python.3
 
 - wingetでRubyのインストール
 ```sh
-winget install Ruby
+winget install RubyInstallerTeam.Ruby
 ```
