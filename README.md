@@ -92,6 +92,35 @@ git config --global user.email "あなたのメールアドレス"
 windows用のパッケージ管理ツールです。
 ソフトを簡単にインストールするためのツールです。
 
+- wingetでパッケージの調査
+
+```sh
+winget search ruby
+``` 
+
+以下のように表示されるので、ID列の名前をinstallの後に続けて記入する
+```sh
+名前                ID                                   バージョン    一致      ソース
+----------------------------------------------------------------------------------------
+Ruby Formatter      9NN0RJL0D2NK                         Unknown                 msstore
+InstantRuby         9WZDNCRDC1W3                         Unknown                 msstore
+EditPlus            ES-Computing.EditPlus                5.7           Tag: ruby winget
+RubyMine            JetBrains.RubyMine                   2024.1.4      Tag: ruby winget
+RubyMine (EAP)      JetBrains.RubyMine.EAP               242.20224.102 Tag: ruby winget
+Laragon             LeNgocKhoa.Laragon                   6.0.0         Tag: ruby winget
+MAMP & MAMP PRO     MAMP.MAMP                            5.0.5         Tag: ruby winget
+Ruby 2.6            RubyInstallerTeam.Ruby.2.6           2.6.10-1      Tag: ruby winget
+Ruby 2.7            RubyInstallerTeam.Ruby.2.7           2.7.6-1       Tag: ruby winget
+Ruby 3.0            RubyInstallerTeam.Ruby.3.0           3.0.4-1       Tag: ruby winget
+Ruby 3.1            RubyInstallerTeam.Ruby.3.1           3.1.2-1       Tag: ruby winget
+Ruby 3.2            RubyInstallerTeam.Ruby.3.2           3.2.1-1       Tag: ruby winget
+Ruby 2.6 with MSYS2 RubyInstallerTeam.RubyWithDevKit.2.6 2.6.10-1      Tag: ruby winget
+Ruby 2.7 with MSYS2 RubyInstallerTeam.RubyWithDevKit.2.7 2.7.6-1       Tag: ruby winget
+Ruby 3.0 with MSYS2 RubyInstallerTeam.RubyWithDevKit.3.0 3.0.4-1       Tag: ruby winget
+Ruby 3.1 with MSYS2 RubyInstallerTeam.RubyWithDevKit.3.1 3.1.2-1       Tag: ruby winget
+Ruby 3.2 with MSYS2 RubyInstallerTeam.RubyWithDevKit.3.2 3.2.2-1       Tag: ruby winget
+```
+
 - wingetでpythonのインストール
 ```sh
 winget install Python.Python.3
@@ -99,5 +128,5 @@ winget install Python.Python.3
 
 - wingetでRubyのインストール
 ```sh
-winget install RubyInstallerTeam.Ruby
+winget install  RubyInstallerTeam.Ruby.3.2
 ```
