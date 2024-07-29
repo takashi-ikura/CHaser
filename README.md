@@ -81,3 +81,9 @@ https://github.com/t-akisato/CHaser-Server
 ```sh
 git config commit.template commit_temp.txt
 ```
+
+- Emailとユーザ名の設定
+```sh
+git config --global user.name "あなたの名前"
+git config --global user.email "あなたのメールアドレス"
+```
