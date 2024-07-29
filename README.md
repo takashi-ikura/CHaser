@@ -70,3 +70,14 @@ ruby chsr_ex.rb -z
 This software is released under the MIT License, see LICENSE.
 
 （このソフトウェアは、MITライセンスのもとで公開されています。LICENSEを見てください。） 
+
+## 大元のリポジトリ
+
+https://github.com/t-akisato/CHaser-Server
+
+## その他
+
+- コミットのコメントの初期値設定
+```sh
+git config commit.template commit_temp.txt
+```
