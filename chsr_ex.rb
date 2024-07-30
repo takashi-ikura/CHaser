@@ -280,7 +280,7 @@ puts "接続を待っています。"
 2.times do |i|
   th[i] = Thread.new(i) { |i|
     # ポートを開放
-    @s[i] = TCPServer.open( port[i] )
+    @s[i] = TCPServer.open(my_address, port[i] )
     @s[i].set_encoding 'utf-8'
 
     # 接続待ち
